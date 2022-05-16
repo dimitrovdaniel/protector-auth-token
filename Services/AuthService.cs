@@ -55,6 +55,7 @@ namespace ProtectorTokenAuth.Services
                 {
                     ActiveUser = payload.Username;
                     ActiveUserRoles = payload.UserRoles;
+                    ActiveUserData = payload.CustomData;
                     return true;
                 }
             }
@@ -88,5 +89,6 @@ namespace ProtectorTokenAuth.Services
 
         public string ActiveUser { get; private set; }
         public string[] ActiveUserRoles { get; private set; }
+        public Dictionary<string, string> ActiveUserData { get; private set; }
     }
 }
