@@ -13,7 +13,7 @@
 
   <PropertyGroup>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Daniel Dimitrov</Authors>
     <Product>Protector Token Auth</Product>
     <Description>Simple token authentication for .NET Core API and MVC projects. It features attributes to decorate and protect controllers or actions by role and services for tracking current active user, roles and custom properties. It also has a built in password hashing method.</Description>
@@ -26,7 +26,7 @@
     <PackageProjectUrl>https://github.com/dimitrovdaniel/protector-auth-token</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dimitrovdaniel/protector-auth-token</RepositoryUrl>
     <PackageTags>token authentication, API authentication, API token, access token</PackageTags>
-    <PackageReleaseNotes>Initial version.</PackageReleaseNotes>
+    <PackageReleaseNotes>Exposed user custom data through AuthService.</PackageReleaseNotes>
   </PropertyGroup>
   
   <ItemGroup>

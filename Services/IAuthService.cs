@@ -40,5 +40,9 @@ namespace ProtectorTokenAuth.Services
         /// The currently authenticated user roles.
         /// </summary>
         string[] ActiveUserRoles { get; }
+        /// <summary>
+        /// The currently authenticated user custom data properties.
+        /// </summary>
+        Dictionary<string, string> ActiveUserData { get; }
     }
 }
